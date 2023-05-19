@@ -177,6 +177,7 @@ int main() {
 				searchData();
 				break;
 			case 5:
+				break;
 			}
 		}
 		catch (exception e)
