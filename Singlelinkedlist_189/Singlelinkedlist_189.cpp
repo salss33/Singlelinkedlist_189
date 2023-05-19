@@ -174,6 +174,8 @@ int main() {
 				traverse();
 				break;
 			case 4:
+				searchData();
+
 		}
 	}
 }
