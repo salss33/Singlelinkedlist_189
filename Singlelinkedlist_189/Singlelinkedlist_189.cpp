@@ -172,6 +172,7 @@ int main() {
 				break;
 			case 3:
 				traverse();
+				break;
 		}
 	}
 }
