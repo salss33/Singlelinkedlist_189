@@ -162,7 +162,7 @@ int main() {
 				int nim;
 				cout << "Masukkan NIM: ";
 				cin >> nim;
-				if (deleteNode(mim)) {
+				if (deleteNode(nim)) {
 					cout << "nim: " << nim << "berhasil dihapus" << endl;
 					system("pause");
 					system("cls");
@@ -181,7 +181,7 @@ int main() {
 		catch (exception e)
 		{
 			cout << "Terjadi Kesalahan" << endl;
-
 		}
-	}
+
+	} while (pilihan != 5);
 }
