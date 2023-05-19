@@ -115,6 +115,11 @@ void searchData() {
 	}
 	else {
 		int nim;
-		cout "Masukkan NIM: ";
+		cout << "Masukkan NIM: ";
+		cin >> nim;
+		Node* currentNode = START;
+		while (currentNode != NULL) {
+
+		}
 	}
 }
