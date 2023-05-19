@@ -162,6 +162,9 @@ int main() {
 				int nim;
 				cout << "Masukkan NIM: ";
 				cin >> nim;
+				if (deleteNode(mim)) {
+					cout << "nim: " << nim << "berhasil dihapus" << endl;
+				}
 			}
 		}
 	}
