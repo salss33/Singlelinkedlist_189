@@ -77,6 +77,8 @@ bool deleteNode(int nim) {
 	Node* previous = START;
 	if (serachNode(nim, previous, current) == false)
 		return false;
+	previous->next = current->next;
+
 
 
 
