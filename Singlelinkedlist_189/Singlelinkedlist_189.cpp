@@ -43,6 +43,7 @@ void addNode() {
 			return;
 		}
 		previous = current;
+		current = current->next;
 
 	}
 
