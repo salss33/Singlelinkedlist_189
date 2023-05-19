@@ -164,7 +164,8 @@ int main() {
 				cin >> nim;
 				if (deleteNode(mim)) {
 					cout << "nim: " << nim << "berhasil dihapus" << endl;
-				}
+					system("pause");
+					system("cls");
 			}
 		}
 	}
