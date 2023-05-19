@@ -81,9 +81,9 @@ bool deleteNode(int nim) {
 	if (current = START)
 		START = current->next;
 	return true;
-	else {
-
-	}
+}
+bool listEmpty() {
+	if (START == NULL)
 
 
 
