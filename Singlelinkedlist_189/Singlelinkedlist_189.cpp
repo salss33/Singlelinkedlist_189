@@ -89,6 +89,7 @@ bool listEmpty() {
 		return false;
 
 }
+
 void traverse() {
 	if (listEmpty()) {
 		cout << "List Kosong" << endl;
@@ -101,10 +102,12 @@ void traverse() {
 		while (currentNode != NULL) {
 			cout << "NIM: " << currentNode->noMhs << ", Nama: " << currentNode->name << endl;
 			currentNode = currentNode->next;
-
 		}
+	}
+}
 
-
-
+void searchData() {
+	if (listEmpty()) {
+		cout << "List Kosong" << endl;
 	}
 }
