@@ -4,5 +4,7 @@ using namespace std;
 struct Node
 {
 	int noMhs;
+	string nama;
+
 
 };
