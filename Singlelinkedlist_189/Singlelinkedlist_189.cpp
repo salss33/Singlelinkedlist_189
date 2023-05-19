@@ -9,5 +9,6 @@ struct Node
 };
 
 void addNote() {
+	int nim;
 
 }
