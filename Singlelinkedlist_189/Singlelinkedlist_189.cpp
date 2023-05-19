@@ -1,14 +1,15 @@
 #include <iostream>
 using namespace std;
 
-struct Node
-{
+struct Node{
 	int noMhs;
 	string name;
 	Node* next;
 };
 
-void addNote() {
+Node* START = NULL;
+
+void addNode() {
 	int nim;
 	string nama;
 	Node* nodeBaru = new Node();
@@ -19,13 +20,17 @@ void addNote() {
 	nodeBaru->noMhs = nim;
 	nodeBaru->name = nama;
 
+
 	if (START == NULL || nim <= START->noMhs) {
 		if (START != NULL && nim == START->noMhs) {
 			cout << "NIM sudah ada" << endl;
 			return;
 
 		}
+		nodeBaru->next = START;
+		START = nodeBaru;
 
+		
 	}
 
 }
