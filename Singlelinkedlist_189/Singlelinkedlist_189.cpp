@@ -175,6 +175,7 @@ int main() {
 				break;
 			case 4:
 				searchData();
+				break;
 
 		}
 	}
