@@ -136,6 +136,8 @@ int main() {
 		try
 		{
 
+			cout << "1. Tambah Data" << endl;
+
 		}
 
 	}
