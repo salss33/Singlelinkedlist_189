@@ -142,6 +142,10 @@ int main() {
 			cout << "4. Cari Data" << endl;
 			cout << "5. Keluar" << endl;
 			cin >> pilihan;
+			switch (pilihan)
+			{
+
+			}
 
 
 		}
