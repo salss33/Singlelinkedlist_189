@@ -10,5 +10,6 @@ struct Node
 
 void addNote() {
 	int nim;
+	string nama;
 
 }
