@@ -15,4 +15,3 @@ void addNote() {
 	cout << "Masukkan NIM: ";
 	cin >> nim;
 	cout << "Masukkan Nama: ";
-}
