@@ -180,6 +180,7 @@ int main() {
 				break;
 				default;
 				cout << "Pilihan tidak ada" << endl;
+				break;
 			}
 		}
 		catch (exception e)
