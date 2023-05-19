@@ -144,6 +144,7 @@ int main() {
 			cin >> pilihan;
 			switch (pilihan)
 			{
+			case 1:
 
 			}
 
