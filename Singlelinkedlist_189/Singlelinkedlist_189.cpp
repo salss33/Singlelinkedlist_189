@@ -178,7 +178,6 @@ int main() {
 				break;
 			case 5:
 				break;
-				default;
 			}
 		}
 		catch (exception e)
