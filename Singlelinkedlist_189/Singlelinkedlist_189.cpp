@@ -154,9 +154,9 @@ int main() {
 				if (listEmpty())
 				{
 					cout << "List Kosong" << endl;
-						system("pause");
-						system("cls");
-						break;
+					system("pause");
+					system("cls");
+					break;
 				}
 
 				int nim;
@@ -176,6 +176,11 @@ int main() {
 			case 4:
 				searchData();
 				break;
+			}
+		}
+		catch (exception e)
+		{
+			cout << "Terjadi Kesalahan" << endl;
 
 		}
 	}
