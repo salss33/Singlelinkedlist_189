@@ -17,5 +17,6 @@ void addNote() {
 	cout << "Masukkan Nama: ";
 	cin >> nama;
 	nodeBaru->noMhs = nim;
+	nodeBaru->name = nama;
 
 }
