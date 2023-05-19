@@ -178,7 +178,7 @@ int main() {
 				break;
 			case 5:
 				break;
-				default;
+			default:
 				cout << "Pilihan tidak ada" << endl;
 				break;
 			}
@@ -188,5 +188,6 @@ int main() {
 			cout << "Terjadi Kesalahan" << endl;
 		}
 
+	
 	} while (pilihan != 5);
 }
